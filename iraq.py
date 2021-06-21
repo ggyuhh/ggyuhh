@@ -7,7 +7,7 @@ from telegram import ParseMode
 import time
 import pytesseract
 from PIL import Image
-TOKEN = "1796692129:AAHy8QW9tenK1E8bkJwWELAZOTG3rkAlxfI"
+TOKEN = "1703105355:AAEFbfnCJycTL2bU2_rzfmin6q-F1RWn_9M"
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
